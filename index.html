@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="page">
+        <div id="title-div">
+            <h1 id="title">Federico Díaz Gerstners's Trolo Form</h1>
+        </div>
+        <div id="description-div">
+            <p id="description">A funny form to know which type of person are you!</p>
+        </div>
+        <div id=#form>
+            <form action="" id=survey-form>
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <label for="number" id="number-label" >Age</label>
+                <input type="number" id="number" placeholder="Enter your age" min="1" max="99">
+                <label for="dropdown" id="dropdown-label">Which season are you into?</label>
+                <select name="seasons" id="drowpdown">
+                    <option value="Summer">Summer</option>
+                    <option value="Autumn">Autumn</option>
+                    <option value="Winter">Winter</option>
+                    <option value="Spring">Spring</option>
+                </select>
+                <p>Do you like vacations?</p>
+                <input type="radio" name="radio" id="radio-button1" value="Yes">
+                <label for="radio-button1">Yes</label>
+                <input type="radio" name="radio" id="radio-button2" value="No">
+                <label for="radio-button2">No</label>
+                <p>Which sports you are keen on?</p>
+                <input type="checkbox" id="checkbox#1" value="Football">
+                <label for="checkbox#1" id="checkbox-label1">Football</label>
+                <input type="checkbox" id="checkbox#2" value="Basketball">
+                <label for="checkbox#2" id="checkbox-label2">Basketball</label>
+                <input type="checkbox" id="checkbox#3" value="Tennis">
+                <label for="checkbox#3" id="checkbox-label3">Tennis</label>
+                <label for="comments" id="comments-label">Any comments you may want to add?</label>
+                <textarea name="comments" id="comments" cols="30" rows="10" maxlength="200px">Enter your comment here...</textarea>
+                <button id="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

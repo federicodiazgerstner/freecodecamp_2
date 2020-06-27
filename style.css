@@ -1,0 +1,39 @@
+body {
+    font-family: Monospace;
+    background-image: url("445409.jpg");
+    background-size: 100% 100%;
+    font-size: 20px;
+    color: rgb(83, 80, 80);
+}
+
+#page {
+    margin: 50px;
+    background-color: rgba(255, 192, 203, 0.534);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-div {
+    color: rgb(161, 157, 157);
+    align-self: stretch;
+    text-align: center;
+}
+
+h1 {
+    background-color: pink;
+    border: solid white;
+    border-radius: 5px;
+}
+
+#description-div {
+    text-align: center;
+    color: white;
+}
+
+
+input {
+    border-radius: 3px;
+    border: pink;
+}
